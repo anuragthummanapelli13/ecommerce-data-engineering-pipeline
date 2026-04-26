@@ -1,0 +1,71 @@
+DATA VALIDATION REPORT
+==================================================
+Total rows: 526052
+Total columns: 12
+
+COLUMN NAMES
+--------------------------------------------------
+order_id
+product_id
+product_name
+quantity
+order_date
+unit_price
+customer_id
+region
+sales
+order_year
+order_month
+order_day
+
+NULL COUNTS
+--------------------------------------------------
+order_id: 0
+product_id: 0
+product_name: 0
+quantity: 0
+order_date: 0
+unit_price: 0
+customer_id: 0
+region: 0
+sales: 0
+order_year: 0
+order_month: 0
+order_day: 0
+
+DUPLICATE ROWS
+--------------------------------------------------
+Duplicate rows: 0
+
+SALES CHECKS
+--------------------------------------------------
+Negative sales rows: 0
+Zero sales rows: 1174
+
+QUANTITY CHECKS
+--------------------------------------------------
+Negative quantity rows: 0
+Zero quantity rows: 0
+
+ORDER ID CHECKS
+--------------------------------------------------
+Distinct order IDs: 20728
+
+CUSTOMER ID CHECKS
+--------------------------------------------------
+Distinct customer IDs: 4340
+
+DATA TYPES
+--------------------------------------------------
+order_id: object
+product_id: str
+product_name: str
+quantity: int64
+order_date: str
+unit_price: float64
+customer_id: str
+region: str
+sales: float64
+order_year: int64
+order_month: int64
+order_day: int64
