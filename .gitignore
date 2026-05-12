@@ -4,3 +4,5 @@ __pycache__/
 *.db
 data/raw/
 data/processed/orders_clean.csv
+*.sqbpro
+scripts/load_to_postgres.py
